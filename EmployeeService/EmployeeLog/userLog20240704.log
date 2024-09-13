@@ -1,0 +1,168 @@
+2024-07-04 09:45:33.185 +00:00 [INF] Now listening on: http://localhost:5059
+2024-07-04 09:45:33.330 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-04 09:45:33.331 +00:00 [INF] Hosting environment: Development
+2024-07-04 09:45:33.331 +00:00 [INF] Content root path: C:\Users\pulkit\Desktop\Assignments\mydo_services\EmployeeService\
+2024-07-04 09:45:35.272 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/swagger/index.html - -
+2024-07-04 09:45:37.705 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/swagger/index.html - - - 200 - text/html;charset=utf-8 2473.3391ms
+2024-07-04 09:45:37.884 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/_framework/aspnetcore-browser-refresh.js - -
+2024-07-04 09:45:37.888 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 4.2735ms
+2024-07-04 09:45:37.889 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/_vs/browserLink - -
+2024-07-04 09:45:37.954 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 65.6796ms
+2024-07-04 09:45:38.070 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/swagger/v1/swagger.json - -
+2024-07-04 09:45:38.303 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 232.7047ms
+2024-07-04 09:45:50.614 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/api/Employee/4 - -
+2024-07-04 09:45:50.662 +00:00 [INF] Executing endpoint 'EmployeeService.Controllers.EmployeeController.Get (EmployeeService)'
+2024-07-04 09:45:50.754 +00:00 [INF] Route matched with {action = "Get", controller = "Employee"}. Executing controller action with signature EmployeeService.Models.Employee Get(Int32) on controller EmployeeService.Controllers.EmployeeController (EmployeeService).
+2024-07-04 09:45:51.028 +00:00 [INF] Get information :7/4/2024 9:45:51 AMlocalhost:5059
+2024-07-04 09:45:51.883 +00:00 [INF] Entity Framework Core 6.0.30 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.30' with options: None
+2024-07-04 09:45:53.628 +00:00 [INF] Executed DbCommand (149ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Email], [e].[Designation], [e].[Id], [e].[Name], [e].[Password], [e].[Phone]
+FROM [employeess] AS [e]
+WHERE [e].[Id] = @__id_0
+2024-07-04 09:45:53.786 +00:00 [INF] Executing ObjectResult, writing value of type 'EmployeeService.Models.Employee'.
+2024-07-04 09:45:53.816 +00:00 [INF] Executed action EmployeeService.Controllers.EmployeeController.Get (EmployeeService) in 3051.7036ms
+2024-07-04 09:45:53.817 +00:00 [INF] Executed endpoint 'EmployeeService.Controllers.EmployeeController.Get (EmployeeService)'
+2024-07-04 09:45:53.831 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/api/Employee/4 - - - 200 - application/json;+charset=utf-8 3216.1509ms
+2024-07-04 12:40:51.687 +00:00 [INF] Now listening on: http://localhost:5059
+2024-07-04 12:40:51.942 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-04 12:40:51.951 +00:00 [INF] Hosting environment: Development
+2024-07-04 12:40:51.957 +00:00 [INF] Content root path: C:\Users\pulkit\Desktop\Assignments\mydo_services\EmployeeService\
+2024-07-04 12:41:16.516 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/swagger/index.html - -
+2024-07-04 12:41:17.537 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/api/Employee - -
+2024-07-04 12:41:17.566 +00:00 [INF] Executing endpoint 'EmployeeService.Controllers.EmployeeController.Get (EmployeeService)'
+2024-07-04 12:41:17.656 +00:00 [INF] Route matched with {action = "Get", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[EmployeeService.Models.Employee]] Get() on controller EmployeeService.Controllers.EmployeeController (EmployeeService).
+2024-07-04 12:41:18.166 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/swagger/index.html - - - 200 - text/html;charset=utf-8 1670.1354ms
+2024-07-04 12:41:18.176 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/_vs/browserLink - -
+2024-07-04 12:41:18.180 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/_framework/aspnetcore-browser-refresh.js - -
+2024-07-04 12:41:18.190 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 9.9963ms
+2024-07-04 12:41:18.336 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 160.3125ms
+2024-07-04 12:41:18.592 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/swagger/v1/swagger.json - -
+2024-07-04 12:41:18.932 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 340.9915ms
+2024-07-04 12:41:20.449 +00:00 [INF] Entity Framework Core 6.0.30 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.30' with options: None
+2024-07-04 12:41:25.089 +00:00 [INF] Executed DbCommand (121ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Email], [e].[Designation], [e].[Id], [e].[Name], [e].[Password], [e].[Phone]
+FROM [employeess] AS [e]
+2024-07-04 12:41:25.285 +00:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeService.Models.Employee, EmployeeService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-04 12:41:25.313 +00:00 [INF] Executed action EmployeeService.Controllers.EmployeeController.Get (EmployeeService) in 7648.5438ms
+2024-07-04 12:41:25.318 +00:00 [INF] Executed endpoint 'EmployeeService.Controllers.EmployeeController.Get (EmployeeService)'
+2024-07-04 12:41:25.362 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/api/Employee - - - 200 - application/json;+charset=utf-8 7824.9893ms
+2024-07-04 15:03:48.156 +00:00 [INF] Now listening on: http://localhost:5059
+2024-07-04 15:03:48.233 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-04 15:03:48.233 +00:00 [INF] Hosting environment: Development
+2024-07-04 15:03:48.234 +00:00 [INF] Content root path: C:\Users\pulkit\Desktop\Assignments\mydo_services\EmployeeService\
+2024-07-04 15:03:50.500 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/swagger/index.html - -
+2024-07-04 15:03:51.986 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/swagger/index.html - - - 200 - text/html;charset=utf-8 1492.0586ms
+2024-07-04 15:03:52.004 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/_vs/browserLink - -
+2024-07-04 15:03:52.019 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/_framework/aspnetcore-browser-refresh.js - -
+2024-07-04 15:03:52.024 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 4.6826ms
+2024-07-04 15:03:52.117 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 112.8991ms
+2024-07-04 15:03:52.261 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/swagger/v1/swagger.json - -
+2024-07-04 15:03:52.450 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 188.8115ms
+2024-07-04 15:04:00.142 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/api/Employee - -
+2024-07-04 15:04:00.163 +00:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-07-04 15:04:00.252 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-07-04 15:04:00.580 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/api/Employee - - - 500 - text/plain;+charset=utf-8 438.7530ms
+2024-07-04 15:04:38.745 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5059/api/Employee/Validate application/json 60
+2024-07-04 15:04:38.750 +00:00 [INF] Executing endpoint 'EmployeeService.Controllers.EmployeeController.Validate (EmployeeService)'
+2024-07-04 15:04:38.828 +00:00 [INF] Route matched with {action = "Validate", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[EmployeeService.DTOS.TokenResult] Validate(EmployeeService.DTOS.EmployeeLoginDTO) on controller EmployeeService.Controllers.EmployeeController (EmployeeService).
+2024-07-04 15:04:40.705 +00:00 [INF] Entity Framework Core 6.0.30 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.30' with options: None
+2024-07-04 15:04:43.848 +00:00 [INF] Executed DbCommand (177ms) [Parameters=[@__customer_Email_0='?' (Size = 450), @__customer_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Email], [e].[Designation], [e].[Id], [e].[Name], [e].[Password], [e].[Phone]
+FROM [employeess] AS [e]
+WHERE ([e].[Email] = @__customer_Email_0) AND ([e].[Password] = @__customer_Password_1)
+2024-07-04 15:04:44.679 +00:00 [INF] Executing OkObjectResult, writing value of type 'EmployeeService.DTOS.TokenResult'.
+2024-07-04 15:04:44.698 +00:00 [INF] Executed action EmployeeService.Controllers.EmployeeController.Validate (EmployeeService) in 5862.7474ms
+2024-07-04 15:04:44.699 +00:00 [INF] Executed endpoint 'EmployeeService.Controllers.EmployeeController.Validate (EmployeeService)'
+2024-07-04 15:04:44.715 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5059/api/Employee/Validate application/json 60 - 200 - application/json;+charset=utf-8 5969.3657ms
+2024-07-04 15:06:59.038 +00:00 [INF] Now listening on: http://localhost:5059
+2024-07-04 15:06:59.106 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-04 15:06:59.107 +00:00 [INF] Hosting environment: Development
+2024-07-04 15:06:59.108 +00:00 [INF] Content root path: C:\Users\pulkit\Desktop\Assignments\mydo_services\EmployeeService\
+2024-07-04 15:06:59.576 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/swagger/index.html - -
+2024-07-04 15:07:00.558 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/swagger/index.html - - - 200 - text/html;charset=utf-8 989.9219ms
+2024-07-04 15:07:00.582 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/_vs/browserLink - -
+2024-07-04 15:07:00.584 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/_framework/aspnetcore-browser-refresh.js - -
+2024-07-04 15:07:00.610 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 26.3464ms
+2024-07-04 15:07:00.657 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 75.6613ms
+2024-07-04 15:07:00.721 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/swagger/v1/swagger.json - -
+2024-07-04 15:07:00.945 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 223.1150ms
+2024-07-04 15:07:51.601 +00:00 [INF] Now listening on: http://localhost:5059
+2024-07-04 15:07:51.658 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-04 15:07:51.659 +00:00 [INF] Hosting environment: Development
+2024-07-04 15:07:51.659 +00:00 [INF] Content root path: C:\Users\pulkit\Desktop\Assignments\mydo_services\EmployeeService\
+2024-07-04 15:07:52.148 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/swagger/index.html - -
+2024-07-04 15:07:52.683 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/_framework/aspnetcore-browser-refresh.js - -
+2024-07-04 15:07:52.689 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 5.0179ms
+2024-07-04 15:07:52.690 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/swagger/index.html - - - 200 - text/html;charset=utf-8 549.8916ms
+2024-07-04 15:07:52.726 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/_vs/browserLink - -
+2024-07-04 15:07:52.798 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 72.4958ms
+2024-07-04 15:07:52.859 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/swagger/v1/swagger.json - -
+2024-07-04 15:07:53.039 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 180.4838ms
+2024-07-04 15:08:05.499 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/api/Employee - -
+2024-07-04 15:08:05.513 +00:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-07-04 15:08:05.520 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-07-04 15:08:05.553 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/api/Employee - - - 500 - text/plain;+charset=utf-8 54.1402ms
+2024-07-04 15:08:35.874 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5059/api/Employee/Validate application/json 60
+2024-07-04 15:08:35.879 +00:00 [INF] Executing endpoint 'EmployeeService.Controllers.EmployeeController.Validate (EmployeeService)'
+2024-07-04 15:08:35.925 +00:00 [INF] Route matched with {action = "Validate", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[EmployeeService.DTOS.TokenResult] Validate(EmployeeService.DTOS.EmployeeLoginDTO) on controller EmployeeService.Controllers.EmployeeController (EmployeeService).
+2024-07-04 15:08:36.891 +00:00 [INF] Entity Framework Core 6.0.30 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.30' with options: None
+2024-07-04 15:08:38.224 +00:00 [INF] Executed DbCommand (128ms) [Parameters=[@__customer_Email_0='?' (Size = 450), @__customer_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Email], [e].[Designation], [e].[Id], [e].[Name], [e].[Password], [e].[Phone]
+FROM [employeess] AS [e]
+WHERE ([e].[Email] = @__customer_Email_0) AND ([e].[Password] = @__customer_Password_1)
+2024-07-04 15:08:38.535 +00:00 [INF] Executing OkObjectResult, writing value of type 'EmployeeService.DTOS.TokenResult'.
+2024-07-04 15:08:38.553 +00:00 [INF] Executed action EmployeeService.Controllers.EmployeeController.Validate (EmployeeService) in 2621.8541ms
+2024-07-04 15:08:38.555 +00:00 [INF] Executed endpoint 'EmployeeService.Controllers.EmployeeController.Validate (EmployeeService)'
+2024-07-04 15:08:38.566 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5059/api/Employee/Validate application/json 60 - 200 - application/json;+charset=utf-8 2691.9898ms
+2024-07-04 15:08:45.691 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/api/Employee - -
+2024-07-04 15:08:45.692 +00:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-07-04 15:08:45.693 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-07-04 15:08:45.699 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/api/Employee - - - 500 - text/plain;+charset=utf-8 8.6439ms
+2024-07-04 15:08:49.521 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5059/api/Employee - -
+2024-07-04 15:08:49.522 +00:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-07-04 15:08:49.525 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-07-04 15:08:49.526 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5059/api/Employee - - - 500 - text/plain;+charset=utf-8 5.2079ms
+2024-07-04 15:10:10.007 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5059/api/Employee application/json 150
+2024-07-04 15:10:10.007 +00:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-07-04 15:10:10.011 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-07-04 15:10:10.053 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5059/api/Employee application/json 150 - 500 - text/plain;+charset=utf-8 46.2307ms

@@ -1,0 +1,249 @@
+2024-09-11 15:13:43.200 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:80'.
+2024-09-11 15:13:43.599 +00:00 [INF] Now listening on: http://[::]:80
+2024-09-11 15:13:43.620 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-11 15:13:43.656 +00:00 [INF] Hosting environment: Development
+2024-09-11 15:13:43.703 +00:00 [INF] Content root path: /app
+2024-09-11 15:14:10.114 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger - null null
+2024-09-11 15:14:10.280 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger - 301 0 null 168.3003ms
+2024-09-11 15:14:10.321 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - null null
+2024-09-11 15:14:10.512 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - 200 null text/html;charset=utf-8 190.6214ms
+2024-09-11 15:14:10.572 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/swagger-ui.css - null null
+2024-09-11 15:14:10.573 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/swagger-ui-bundle.js - null null
+2024-09-11 15:14:10.609 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/swagger-ui-standalone-preset.js - null null
+2024-09-11 15:14:10.718 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-09-11 15:14:10.730 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/swagger-ui.css - 200 144929 text/css 157.7247ms
+2024-09-11 15:14:11.100 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-09-11 15:14:11.148 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 539.0119ms
+2024-09-11 15:14:11.676 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-09-11 15:14:11.686 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 1119.0271ms
+2024-09-11 15:14:11.933 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - null null
+2024-09-11 15:14:12.072 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/favicon-32x32.png - null null
+2024-09-11 15:14:12.090 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-09-11 15:14:12.091 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/favicon-32x32.png - 200 628 image/png 18.8532ms
+2024-09-11 15:14:12.251 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 318.4507ms
+2024-09-11 15:15:41.856 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:80'.
+2024-09-11 15:15:42.208 +00:00 [INF] Now listening on: http://[::]:80
+2024-09-11 15:15:42.210 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-11 15:15:42.211 +00:00 [INF] Hosting environment: Development
+2024-09-11 15:15:42.212 +00:00 [INF] Content root path: /app
+2024-09-11 15:16:00.717 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - null null
+2024-09-11 15:16:01.536 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - 200 null text/html;charset=utf-8 820.5275ms
+2024-09-11 15:16:02.188 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - null null
+2024-09-11 15:16:02.620 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 432.0299ms
+2024-09-11 15:19:23.429 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:80'.
+2024-09-11 15:19:23.798 +00:00 [INF] Now listening on: http://[::]:80
+2024-09-11 15:19:23.800 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-11 15:19:23.800 +00:00 [INF] Hosting environment: Development
+2024-09-11 15:19:23.801 +00:00 [INF] Content root path: /app
+2024-09-11 15:19:47.424 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32769/swagger - null null
+2024-09-11 15:19:47.608 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32769/swagger - 301 0 null 195.9414ms
+2024-09-11 15:19:47.629 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32769/swagger/index.html - null null
+2024-09-11 15:19:47.834 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32769/swagger/index.html - 200 null text/html;charset=utf-8 204.7983ms
+2024-09-11 15:19:47.905 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32769/swagger/swagger-ui.css - null null
+2024-09-11 15:19:47.907 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32769/swagger/swagger-ui-bundle.js - null null
+2024-09-11 15:19:47.964 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32769/swagger/swagger-ui-standalone-preset.js - null null
+2024-09-11 15:19:48.319 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-09-11 15:19:48.339 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32769/swagger/swagger-ui.css - 200 144929 text/css 434.4095ms
+2024-09-11 15:19:48.439 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-09-11 15:19:48.443 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32769/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 478.4301ms
+2024-09-11 15:19:48.883 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-09-11 15:19:48.908 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32769/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 1000.3336ms
+2024-09-11 15:19:49.228 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32769/swagger/v1/swagger.json - null null
+2024-09-11 15:19:49.313 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32769/swagger/favicon-32x32.png - null null
+2024-09-11 15:19:49.322 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-09-11 15:19:49.324 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32769/swagger/favicon-32x32.png - 200 628 image/png 10.4478ms
+2024-09-11 15:19:49.578 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32769/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 349.72ms
+2024-09-11 15:19:50.204 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32769/ - null null
+2024-09-11 15:19:50.353 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32769/ - 404 0 null 148.8213ms
+2024-09-11 15:19:50.564 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:32769/, Response status code: 404
+2024-09-11 15:20:11.192 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32769/ - null null
+2024-09-11 15:20:11.378 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32769/ - 404 0 null 185.9265ms
+2024-09-11 15:20:11.539 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:32769/, Response status code: 404
+2024-09-11 15:20:16.119 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32769/swagger/index.html - null null
+2024-09-11 15:20:16.132 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32769/swagger/index.html - 200 null text/html;charset=utf-8 12.7411ms
+2024-09-11 15:20:16.646 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32769/swagger/v1/swagger.json - null null
+2024-09-11 15:20:16.770 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32769/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 123.6871ms
+2024-09-11 15:20:25.462 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32769/api/Employee - null null
+2024-09-11 15:20:25.474 +00:00 [INF] Executing endpoint 'EmployeeService.Controllers.EmployeeController.Get (EmployeeService)'
+2024-09-11 15:20:25.510 +00:00 [INF] Route matched with {action = "Get", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[EmployeeService.Models.Employee]] Get() on controller EmployeeService.Controllers.EmployeeController (EmployeeService).
+2024-09-11 15:20:27.519 +00:00 [INF] Entity Framework Core 6.0.33 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.30' with options: None
+2024-09-11 15:20:28.899 +00:00 [ERR] An error occurred using the connection to database 'employeeDB' on server '(localdb)\mssqllocaldb'.
+2024-09-11 15:20:28.959 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'EmployeeService.Models.EmployeeContext'.
+System.PlatformNotSupportedException: LocalDB is not supported on this platform.
+   at Microsoft.Data.SqlClient.SNI.LocalDB.GetLocalDBConnectionString(String localDbInstance)
+   at Microsoft.Data.SqlClient.SNI.SNIProxy.GetLocalDBDataSource(String fullServerName, Boolean& error)
+   at Microsoft.Data.SqlClient.SNI.SNIProxy.CreateConnectionHandle(String fullServerName, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Byte[]& instanceName, Byte[][]& spnBuffer, Boolean flushCache, Boolean async, Boolean parallel, Boolean isIntegratedSecurity, String cachedFQDN, SQLDNSInfo& pendingDNSInfo)
+   at Microsoft.Data.SqlClient.SNI.TdsParserStateObjectManaged.CreatePhysicalSNIHandle(String serverName, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Byte[]& instanceName, Byte[][]& spnBuffer, Boolean flushCache, Boolean async, Boolean parallel, String cachedFQDN, SQLDNSInfo& pendingDNSInfo, Boolean isIntegratedSecurity)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.PlatformNotSupportedException: LocalDB is not supported on this platform.
+   at Microsoft.Data.SqlClient.SNI.LocalDB.GetLocalDBConnectionString(String localDbInstance)
+   at Microsoft.Data.SqlClient.SNI.SNIProxy.GetLocalDBDataSource(String fullServerName, Boolean& error)
+   at Microsoft.Data.SqlClient.SNI.SNIProxy.CreateConnectionHandle(String fullServerName, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Byte[]& instanceName, Byte[][]& spnBuffer, Boolean flushCache, Boolean async, Boolean parallel, Boolean isIntegratedSecurity, String cachedFQDN, SQLDNSInfo& pendingDNSInfo)
+   at Microsoft.Data.SqlClient.SNI.TdsParserStateObjectManaged.CreatePhysicalSNIHandle(String serverName, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Byte[]& instanceName, Byte[][]& spnBuffer, Boolean flushCache, Boolean async, Boolean parallel, String cachedFQDN, SQLDNSInfo& pendingDNSInfo, Boolean isIntegratedSecurity)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-09-11 15:20:28.969 +00:00 [INF] Executed action EmployeeService.Controllers.EmployeeController.Get (EmployeeService) in 3452.828ms
+2024-09-11 15:20:28.970 +00:00 [INF] Executed endpoint 'EmployeeService.Controllers.EmployeeController.Get (EmployeeService)'
+2024-09-11 15:20:28.974 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.PlatformNotSupportedException: LocalDB is not supported on this platform.
+   at Microsoft.Data.SqlClient.SNI.LocalDB.GetLocalDBConnectionString(String localDbInstance)
+   at Microsoft.Data.SqlClient.SNI.SNIProxy.GetLocalDBDataSource(String fullServerName, Boolean& error)
+   at Microsoft.Data.SqlClient.SNI.SNIProxy.CreateConnectionHandle(String fullServerName, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Byte[]& instanceName, Byte[][]& spnBuffer, Boolean flushCache, Boolean async, Boolean parallel, Boolean isIntegratedSecurity, String cachedFQDN, SQLDNSInfo& pendingDNSInfo)
+   at Microsoft.Data.SqlClient.SNI.TdsParserStateObjectManaged.CreatePhysicalSNIHandle(String serverName, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Byte[]& instanceName, Byte[][]& spnBuffer, Boolean flushCache, Boolean async, Boolean parallel, String cachedFQDN, SQLDNSInfo& pendingDNSInfo, Boolean isIntegratedSecurity)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at EmployeeService.Services.EmployeeService.GetAllEmployees() in C:\Users\siddharth\repos\backend\Backend\EmployeeService\Services\EmployeeService.cs:line 21
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-11 15:20:29.048 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32769/api/Employee - 500 null text/plain; charset=utf-8 3586.0714ms
+2024-09-11 16:42:00.031 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:80'.
+2024-09-11 16:42:00.250 +00:00 [INF] Now listening on: http://[::]:80
+2024-09-11 16:42:00.251 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-11 16:42:00.252 +00:00 [INF] Hosting environment: Development
+2024-09-11 16:42:00.253 +00:00 [INF] Content root path: /app
+2024-09-11 16:42:04.954 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - null null
+2024-09-11 16:42:05.084 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - 200 null text/html;charset=utf-8 131.7378ms
+2024-09-11 16:42:05.100 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/swagger-ui.css - null null
+2024-09-11 16:42:05.107 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/swagger-ui-bundle.js - null null
+2024-09-11 16:42:05.120 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/swagger-ui-standalone-preset.js - null null
+2024-09-11 16:42:05.210 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-09-11 16:42:05.217 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/swagger-ui.css - 200 144929 text/css 117.4414ms
+2024-09-11 16:42:05.351 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-09-11 16:42:05.358 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 237.3776ms
+2024-09-11 16:42:05.467 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-09-11 16:42:05.468 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 360.2309ms
+2024-09-11 16:42:05.692 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - null null
+2024-09-11 16:42:05.738 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/favicon-32x32.png - null null
+2024-09-11 16:42:05.740 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-09-11 16:42:05.740 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/favicon-32x32.png - 200 628 image/png 1.8554ms
+2024-09-11 16:42:05.819 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 126.2237ms
+2024-09-11 16:42:18.420 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/ - null null
+2024-09-11 16:42:18.438 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/ - 404 0 null 17.3194ms
+2024-09-11 16:42:18.443 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:32768/, Response status code: 404
+2024-09-11 16:42:25.269 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger - null null
+2024-09-11 16:42:25.281 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger - 301 0 null 12.2025ms
+2024-09-11 16:42:25.301 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - null null
+2024-09-11 16:42:25.305 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - 200 null text/html;charset=utf-8 4.0579ms
+2024-09-11 16:42:25.668 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - null null
+2024-09-11 16:42:25.682 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.1056ms
+2024-09-11 16:42:34.944 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/api/Employee - null null
+2024-09-11 16:42:34.951 +00:00 [INF] Executing endpoint 'EmployeeService.Controllers.EmployeeController.Get (EmployeeService)'
+2024-09-11 16:42:34.971 +00:00 [INF] Route matched with {action = "Get", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[EmployeeService.Models.Employee]] Get() on controller EmployeeService.Controllers.EmployeeController (EmployeeService).
+2024-09-11 16:42:35.682 +00:00 [INF] Entity Framework Core 6.0.33 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.30' with options: None
+2024-09-11 16:42:37.150 +00:00 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Designation], [e].[Email], [e].[Name], [e].[Password], [e].[Phone]
+FROM [employeess] AS [e]
+2024-09-11 16:42:37.174 +00:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeService.Models.Employee, EmployeeService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-11 16:42:37.183 +00:00 [INF] Executed action EmployeeService.Controllers.EmployeeController.Get (EmployeeService) in 2207.1694ms
+2024-09-11 16:42:37.184 +00:00 [INF] Executed endpoint 'EmployeeService.Controllers.EmployeeController.Get (EmployeeService)'
+2024-09-11 16:42:37.189 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/api/Employee - 200 null application/json; charset=utf-8 2245.2884ms
+2024-09-11 17:25:23.060 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:80'.
+2024-09-11 17:25:23.222 +00:00 [INF] Now listening on: http://[::]:80
+2024-09-11 17:25:23.223 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-11 17:25:23.224 +00:00 [INF] Hosting environment: Development
+2024-09-11 17:25:23.224 +00:00 [INF] Content root path: /app
+2024-09-11 17:25:27.960 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - null null
+2024-09-11 17:25:28.073 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - 200 null text/html;charset=utf-8 114.0516ms
+2024-09-11 17:25:28.203 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - null null
+2024-09-11 17:25:28.320 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 117.2859ms
+2024-09-11 17:25:34.445 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/api/Employee - null null
+2024-09-11 17:25:34.455 +00:00 [INF] Executing endpoint 'EmployeeService.Controllers.EmployeeController.Get (EmployeeService)'
+2024-09-11 17:25:34.476 +00:00 [INF] Route matched with {action = "Get", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[EmployeeService.Models.Employee]] Get() on controller EmployeeService.Controllers.EmployeeController (EmployeeService).
+2024-09-11 17:25:35.154 +00:00 [INF] Entity Framework Core 6.0.33 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.30' with options: None
+2024-09-11 17:25:37.191 +00:00 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Designation], [e].[Email], [e].[Name], [e].[Password], [e].[Phone]
+FROM [employeess] AS [e]
+2024-09-11 17:25:37.218 +00:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeService.Models.Employee, EmployeeService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-11 17:25:37.228 +00:00 [INF] Executed action EmployeeService.Controllers.EmployeeController.Get (EmployeeService) in 2747.3992ms
+2024-09-11 17:25:37.229 +00:00 [INF] Executed endpoint 'EmployeeService.Controllers.EmployeeController.Get (EmployeeService)'
+2024-09-11 17:25:37.235 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/api/Employee - 200 null application/json; charset=utf-8 2789.9882ms
+2024-09-11 17:25:49.017 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - null null
+2024-09-11 17:25:49.034 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - 200 null text/html;charset=utf-8 16.5942ms
+2024-09-11 17:25:49.207 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - null null
+2024-09-11 17:25:49.220 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.6701ms
+2024-09-11 18:11:15.565 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/api/Employee - null null
+2024-09-11 18:11:15.586 +00:00 [INF] Executing endpoint 'EmployeeService.Controllers.EmployeeController.Get (EmployeeService)'
+2024-09-11 18:11:15.590 +00:00 [INF] Route matched with {action = "Get", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[EmployeeService.Models.Employee]] Get() on controller EmployeeService.Controllers.EmployeeController (EmployeeService).
+2024-09-11 18:11:15.642 +00:00 [INF] Entity Framework Core 6.0.33 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.30' with options: None
+2024-09-11 18:11:16.017 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Designation], [e].[Email], [e].[Name], [e].[Password], [e].[Phone]
+FROM [employeess] AS [e]
+2024-09-11 18:11:16.020 +00:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeService.Models.Employee, EmployeeService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-11 18:11:16.023 +00:00 [INF] Executed action EmployeeService.Controllers.EmployeeController.Get (EmployeeService) in 432.3359ms
+2024-09-11 18:11:16.024 +00:00 [INF] Executed endpoint 'EmployeeService.Controllers.EmployeeController.Get (EmployeeService)'
+2024-09-11 18:11:16.025 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/api/Employee - 200 null application/json; charset=utf-8 461.498ms
+2024-09-11 18:43:31.103 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/ - null null
+2024-09-11 18:43:31.137 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/ - 404 0 null 29.0748ms
+2024-09-11 18:43:31.148 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:32768/, Response status code: 404
+2024-09-11 18:43:38.383 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/index.html - null null
+2024-09-11 18:43:38.400 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/index.html - 200 null text/html;charset=utf-8 16.8623ms
+2024-09-11 18:43:38.602 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - null null
+2024-09-11 18:43:38.679 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:32768/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 77.3078ms

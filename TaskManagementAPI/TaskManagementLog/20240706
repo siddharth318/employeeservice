@@ -1,0 +1,107 @@
+2024-07-06 11:55:11.475 +00:00 [INF] Now listening on: http://localhost:5063
+2024-07-06 11:55:11.524 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-06 11:55:11.525 +00:00 [INF] Hosting environment: Development
+2024-07-06 11:55:11.525 +00:00 [INF] Content root path: C:\Users\pulkit\source\repos\TaskManagementAPI\
+2024-07-06 11:55:15.380 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - -
+2024-07-06 11:55:16.706 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - - - 200 - text/html;charset=utf-8 1331.6642ms
+2024-07-06 11:55:16.770 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - -
+2024-07-06 11:55:16.901 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - -
+2024-07-06 11:55:16.912 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 10.9949ms
+2024-07-06 11:55:16.915 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 144.6274ms
+2024-07-06 11:55:16.995 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - -
+2024-07-06 11:55:17.193 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 198.1224ms
+2024-07-06 11:55:25.441 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/api/TaskManagement - -
+2024-07-06 11:55:25.452 +00:00 [INF] Executing endpoint 'TaskManagementAPI.Controllers.TaskManagementController.Get (TaskManagementAPI)'
+2024-07-06 11:55:25.566 +00:00 [INF] Route matched with {action = "Get", controller = "TaskManagement"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[TaskManagementAPI.Models.TaskManagement]] Get() on controller TaskManagementAPI.Controllers.TaskManagementController (TaskManagementAPI).
+2024-07-06 11:55:29.801 +00:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[TaskManagementAPI.Models.TaskManagement, TaskManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-06 11:55:29.822 +00:00 [INF] Executed action TaskManagementAPI.Controllers.TaskManagementController.Get (TaskManagementAPI) in 4250.6157ms
+2024-07-06 11:55:29.827 +00:00 [INF] Executed endpoint 'TaskManagementAPI.Controllers.TaskManagementController.Get (TaskManagementAPI)'
+2024-07-06 11:55:29.828 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/api/TaskManagement - - - 200 - application/json;+charset=utf-8 4386.5919ms
+2024-07-06 11:56:29.857 +00:00 [INF] Now listening on: http://localhost:5063
+2024-07-06 11:56:29.921 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-06 11:56:29.922 +00:00 [INF] Hosting environment: Development
+2024-07-06 11:56:29.922 +00:00 [INF] Content root path: C:\Users\pulkit\source\repos\TaskManagementAPI\
+2024-07-06 11:56:31.051 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - -
+2024-07-06 11:56:32.086 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - -
+2024-07-06 11:56:32.092 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 5.1022ms
+2024-07-06 11:56:32.095 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - - - 200 - text/html;charset=utf-8 1051.6763ms
+2024-07-06 11:56:32.129 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - -
+2024-07-06 11:56:32.216 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 87.3266ms
+2024-07-06 11:56:32.290 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - -
+2024-07-06 11:56:32.526 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 236.1516ms
+2024-07-06 11:56:45.733 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/api/TaskManagement - -
+2024-07-06 11:56:45.743 +00:00 [INF] Executing endpoint 'TaskManagementAPI.Controllers.TaskManagementController.Get (TaskManagementAPI)'
+2024-07-06 11:56:45.786 +00:00 [INF] Route matched with {action = "Get", controller = "TaskManagement"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[TaskManagementAPI.Models.TaskManagement]] Get() on controller TaskManagementAPI.Controllers.TaskManagementController (TaskManagementAPI).
+2024-07-06 11:56:45.901 +00:00 [INF] Get information :7/6/2024 11:56:45 AMlocalhost:5063
+2024-07-06 11:56:48.221 +00:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[TaskManagementAPI.Models.TaskManagement, TaskManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-06 11:56:48.246 +00:00 [INF] Executed action TaskManagementAPI.Controllers.TaskManagementController.Get (TaskManagementAPI) in 2453.3455ms
+2024-07-06 11:56:48.250 +00:00 [INF] Executed endpoint 'TaskManagementAPI.Controllers.TaskManagementController.Get (TaskManagementAPI)'
+2024-07-06 11:56:48.251 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/api/TaskManagement - - - 200 - application/json;+charset=utf-8 2517.8335ms
+2024-07-06 12:52:34.236 +00:00 [INF] Now listening on: http://localhost:5063
+2024-07-06 12:52:34.376 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-06 12:52:34.378 +00:00 [INF] Hosting environment: Development
+2024-07-06 12:52:34.378 +00:00 [INF] Content root path: C:\Users\pulkit\source\repos\TaskManagementAPI\
+2024-07-06 12:52:34.935 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - -
+2024-07-06 12:52:35.696 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - - - 200 - text/html;charset=utf-8 770.7744ms
+2024-07-06 12:52:35.721 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - -
+2024-07-06 12:52:35.724 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - -
+2024-07-06 12:52:35.729 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 5.0766ms
+2024-07-06 12:52:35.943 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 221.8371ms
+2024-07-06 12:52:36.006 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - -
+2024-07-06 12:52:36.317 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 311.1855ms
+2024-07-06 12:53:34.970 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/api/TaskManagement - -
+2024-07-06 12:53:34.982 +00:00 [INF] Executing endpoint 'TaskManagementAPI.Controllers.TaskManagementController.Get (TaskManagementAPI)'
+2024-07-06 12:53:35.022 +00:00 [INF] Route matched with {action = "Get", controller = "TaskManagement"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[TaskManagementAPI.Models.TaskManagement]] Get() on controller TaskManagementAPI.Controllers.TaskManagementController (TaskManagementAPI).
+2024-07-06 12:53:35.238 +00:00 [INF] Get information :7/6/2024 12:53:35 PMlocalhost:5063
+2024-07-06 12:53:37.660 +00:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[TaskManagementAPI.Models.TaskManagement, TaskManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-06 12:53:37.680 +00:00 [INF] Executed action TaskManagementAPI.Controllers.TaskManagementController.Get (TaskManagementAPI) in 2652.8048ms
+2024-07-06 12:53:37.684 +00:00 [INF] Executed endpoint 'TaskManagementAPI.Controllers.TaskManagementController.Get (TaskManagementAPI)'
+2024-07-06 12:53:37.685 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/api/TaskManagement - - - 200 - application/json;+charset=utf-8 2715.2486ms
+2024-07-06 12:57:34.228 +00:00 [INF] Now listening on: http://localhost:5063
+2024-07-06 12:57:34.295 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-06 12:57:34.296 +00:00 [INF] Hosting environment: Development
+2024-07-06 12:57:34.296 +00:00 [INF] Content root path: C:\Users\pulkit\source\repos\TaskManagementAPI\
+2024-07-06 12:57:35.052 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - -
+2024-07-06 12:57:36.300 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - - - 200 - text/html;charset=utf-8 1257.6312ms
+2024-07-06 12:57:36.392 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - -
+2024-07-06 12:57:36.401 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 8.7243ms
+2024-07-06 12:57:36.401 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - -
+2024-07-06 12:57:36.478 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 77.0086ms
+2024-07-06 12:57:36.599 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - -
+2024-07-06 12:57:36.865 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 265.9442ms
+2024-07-06 18:20:57.412 +00:00 [INF] Now listening on: http://localhost:5063
+2024-07-06 18:20:57.829 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-06 18:20:57.831 +00:00 [INF] Hosting environment: Development
+2024-07-06 18:20:57.831 +00:00 [INF] Content root path: C:\Users\pulkit\source\repos\TaskManagementAPI\
+2024-07-06 18:20:57.929 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - -
+2024-07-06 18:21:01.928 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - - - 200 - text/html;charset=utf-8 4012.7431ms
+2024-07-06 18:21:01.996 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - -
+2024-07-06 18:21:02.000 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - -
+2024-07-06 18:21:02.010 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 9.8824ms
+2024-07-06 18:21:02.357 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 360.3898ms
+2024-07-06 18:21:02.456 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - -
+2024-07-06 18:21:02.778 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 322.3888ms
+2024-07-06 18:22:27.668 +00:00 [INF] Now listening on: http://localhost:5063
+2024-07-06 18:22:27.829 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-06 18:22:27.830 +00:00 [INF] Hosting environment: Development
+2024-07-06 18:22:27.830 +00:00 [INF] Content root path: C:\Users\pulkit\source\repos\TaskManagementAPI\
+2024-07-06 18:22:28.315 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - -
+2024-07-06 18:22:29.465 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - -
+2024-07-06 18:22:29.470 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 4.9461ms
+2024-07-06 18:22:29.477 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - - - 200 - text/html;charset=utf-8 1171.0300ms
+2024-07-06 18:22:29.545 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - -
+2024-07-06 18:22:29.608 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 63.0143ms
+2024-07-06 18:22:29.686 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - -
+2024-07-06 18:22:29.987 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 300.8223ms
+2024-07-06 19:06:55.377 +00:00 [INF] Now listening on: http://localhost:5063
+2024-07-06 19:06:55.599 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-06 19:06:55.602 +00:00 [INF] Hosting environment: Development
+2024-07-06 19:06:55.602 +00:00 [INF] Content root path: C:\Users\pulkit\Desktop\MY_DO_API\TaskManagementAPI\
+2024-07-06 19:06:57.058 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - -
+2024-07-06 19:06:58.553 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - - - 200 - text/html;charset=utf-8 1495.7910ms
+2024-07-06 19:06:58.594 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - -
+2024-07-06 19:06:58.636 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - -
+2024-07-06 19:06:58.643 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - - 200 12366 application/javascript;+charset=utf-8 6.6347ms
+2024-07-06 19:06:58.783 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 189.5094ms
+2024-07-06 19:06:58.903 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - -
+2024-07-06 19:06:59.179 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 275.3072ms
