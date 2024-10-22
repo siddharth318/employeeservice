@@ -56,9 +56,6 @@ namespace TaskManagementAPI.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Title2")
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("TaskId");
 
                     b.ToTable("trans");

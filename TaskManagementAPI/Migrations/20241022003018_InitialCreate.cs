@@ -2,25 +2,25 @@
 
 #nullable disable
 
-namespace EmployeeService.Migrations
+namespace TaskManagementAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class sid2 : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "Password2",
-                table: "employeess");
+                name: "Title2",
+                table: "trans");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AddColumn<string>(
-                name: "Password2",
-                table: "employeess",
+                name: "Title2",
+                table: "trans",
                 type: "nvarchar(max)",
                 nullable: true);
         }

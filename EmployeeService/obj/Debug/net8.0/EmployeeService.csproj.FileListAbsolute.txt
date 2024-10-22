@@ -146,3 +146,4 @@ C:\backend-solution-final\EmployeeServiceSolution\EmployeeService\obj\Debug\net8
 C:\backend-solution-final\EmployeeServiceSolution\EmployeeService\obj\Debug\net8.0\EmployeeService.pdb
 C:\backend-solution-final\EmployeeServiceSolution\EmployeeService\obj\Debug\net8.0\EmployeeService.genruntimeconfig.cache
 C:\backend-solution-final\EmployeeServiceSolution\EmployeeService\obj\Debug\net8.0\ref\EmployeeService.dll
+C:\backend-solution-final\EmployeeServiceSolution\EmployeeService\obj\Debug\net8.0\EmployeeService.sourcelink.json

@@ -143,3 +143,4 @@ C:\backend-solution-final\EmployeeServiceSolution\TaskManagementAPI\obj\Debug\ne
 C:\backend-solution-final\EmployeeServiceSolution\TaskManagementAPI\obj\Debug\net8.0\TaskManagementAPI.pdb
 C:\backend-solution-final\EmployeeServiceSolution\TaskManagementAPI\obj\Debug\net8.0\TaskManagementAPI.genruntimeconfig.cache
 C:\backend-solution-final\EmployeeServiceSolution\TaskManagementAPI\obj\Debug\net8.0\ref\TaskManagementAPI.dll
+C:\backend-solution-final\EmployeeServiceSolution\TaskManagementAPI\obj\Debug\net8.0\TaskManagementAPI.sourcelink.json
